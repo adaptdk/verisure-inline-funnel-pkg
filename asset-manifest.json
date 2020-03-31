@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2cea3962.chunk.css",
+    "main.js": "/static/js/main.e01161f4.chunk.js",
+    "main.js.map": "/static/js/main.e01161f4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.46865f95.js",
+    "runtime-main.js.map": "/static/js/runtime-main.46865f95.js.map",
+    "static/js/2.110d369b.chunk.js": "/static/js/2.110d369b.chunk.js",
+    "static/js/2.110d369b.chunk.js.map": "/static/js/2.110d369b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.61cdcb9bb04016fd284273b344a4b170.js": "/precache-manifest.61cdcb9bb04016fd284273b344a4b170.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2cea3962.chunk.css.map": "/static/css/main.2cea3962.chunk.css.map",
+    "static/js/2.110d369b.chunk.js.LICENSE.txt": "/static/js/2.110d369b.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/fira-sans-v10-latin-regular.baa3b51e.woff",
+    "static/media/Paragraph.module.scss": "/static/media/icon-check.fc1b0760.svg",
+    "static/media/Result.module.scss": "/static/media/result-icon-fire.98c5bc70.svg",
+    "static/media/verisure-home.png": "/static/media/verisure-home.0ae190ad.png",
+    "static/media/verisure-portal.png": "/static/media/verisure-portal.39cf59c6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46865f95.js",
+    "static/js/2.110d369b.chunk.js",
+    "static/css/main.2cea3962.chunk.css",
+    "static/js/main.e01161f4.chunk.js"
+  ]
+}
