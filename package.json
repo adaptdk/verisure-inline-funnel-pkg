@@ -2,8 +2,8 @@
     "name": "verisure-inline-funnel-pkg",
     "version": "0.0.6",
     "scripts": {
-        "version": "git commit -m \"Bumping up version...\" package.json && git push",
-        "postversion": "github-release upload --owner adaptdk --repo verisure-inline-funnel-pkg --tag $npm_package_version --name $npm_package_version build"
+        "version": "github-release upload --owner adaptdk --repo verisure-inline-funnel-pkg --tag $npm_package_version --name $npm_package_version build",
+        "postversion": "git commit -m \"Bumping up version...\" package.json && git push"
     },
     "devDependencies": {
         "cross-var": "^1.1.0",
