@@ -1,0 +1,8 @@
+{
+  "name": "adaptdk/verisure-inline-funnel-pkg",
+  "version": "0.1",
+  "scripts": {
+    "version": "echo release-line >> dist-file && git add . --all",
+    "postversion": "git push --follow-tags"
+  }
+}
