@@ -1,8 +1,8 @@
 {
     "name": "verisure-inline-funnel-pkg",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "scripts": {
-        "version": "upload-github-release-asset.sh owner=adaptdk repo=verisure-inline-funnel-pkg tag=$npm_package_version filename=../build",
+        "version": "./scripts/upload-github-release-asset.sh owner=adaptdk repo=verisure-inline-funnel-pkg tag=$npm_package_version filename=../build",
         "postversion": "git commit -m \"Bumping up version...\" package.json && git push"
     },
     "devDependencies": {
