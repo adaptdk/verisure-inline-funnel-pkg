@@ -3,7 +3,7 @@
     "version": "0.2.5",
     "scripts": {
         "version": "rm -rf ${npm_package_name}* && cp -rp ../build ${npm_package_name} && zip -r ${npm_package_name}-${npm_package_version}.zip ${npm_package_name} && git commit -m \"Bumping version to ${npm_package_version}...\" package.json && git push",
-        "postversion": "github-release upload --owner adaptdk --repo verisure-inline-funnel-pkg --tag ${npm_package_version} --name ${npm_package_version} ${npm_package_name}-${npm_package_version}.zip"
+        "postversion": "github-release upload --owner adaptdk --repo verisure-inline-funnel-pkg --tag ${npm_package_version} --name ${npm_package_version} ${npm_package_name}-${npm_package_version}.zip && rm -rf ${npm_package_name}"
     },
     "devDependencies": {
         "cross-var": "^1.1.0",
