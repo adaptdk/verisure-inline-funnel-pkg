@@ -1,6 +1,6 @@
 {
     "name": "verisure-inline-funnel-pkg",
-    "version": "0.2.40",
+    "version": "0.2.41",
     "scripts": {
         "version": "rm -rf ${npm_package_name}* && cp -rp ../build-verisure-inline-funnel ${npm_package_name} && zip -r ${npm_package_name}-${npm_package_version}.zip ${npm_package_name} && git commit -m \"Bumping version to ${npm_package_version}...\" package.json && git push",
         "postversion": "github-release upload --owner adaptdk --repo verisure-inline-funnel-pkg --tag ${npm_package_version} --name ${npm_package_version} ${npm_package_name}-${npm_package_version}.zip && rm -rf ${npm_package_name}"
